@@ -2,7 +2,7 @@
 
 namespace RaveDotNet
 {
-    public class Class1
+    public class Rave
     {
     }
 }
