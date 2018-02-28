@@ -4,4 +4,23 @@
     <TargetFramework>netstandard1.4</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="AccountCharge\National\" />
+    <Folder Include="AccountCharge\International\" />
+    <Folder Include="AlternativePaymentMethod\GhanaMobileMoney\" />
+    <Folder Include="AlternativePaymentMethod\KenyaMpesa\" />
+    <Folder Include="AlternativePaymentMethod\NigeriaUSSD\" />
+    <Folder Include="Miscellaneous\Fees\" />
+    <Folder Include="Miscellaneous\Bank\" />
+    <Folder Include="Miscellaneous\DirectChargePaymentRefund\" />
+    <Folder Include="Miscellaneous\ExchangeRates\" />
+    <Folder Include="PreAuthPayment\" />
+    <Folder Include="TransactionStatusCheck\XREQuery\" />
+    <Folder Include="TransactionStatusCheck\NormalRequery\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+  </ItemGroup>
+
 </Project>
