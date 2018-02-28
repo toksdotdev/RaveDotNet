@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaveDotNet", "RaveDotNet\RaveDotNet.csproj", "{56D6797E-2794-40A8-B86A-07439708BE5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaveDotNet.Test", "RaveDotNet.Test\RaveDotNet.Test.csproj", "{C1AFA766-D031-465D-A291-6C943AC0BC93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{56D6797E-2794-40A8-B86A-07439708BE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56D6797E-2794-40A8-B86A-07439708BE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56D6797E-2794-40A8-B86A-07439708BE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1AFA766-D031-465D-A291-6C943AC0BC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1AFA766-D031-465D-A291-6C943AC0BC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1AFA766-D031-465D-A291-6C943AC0BC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1AFA766-D031-465D-A291-6C943AC0BC93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
